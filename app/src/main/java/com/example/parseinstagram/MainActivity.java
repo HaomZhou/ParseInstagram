@@ -2,6 +2,7 @@ package com.example.parseinstagram;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
 import androidx.core.content.FileProvider;
 
 import android.annotation.SuppressLint;
@@ -27,6 +28,18 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.io.File;
+=======
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseQuery;
+
+>>>>>>> d787780b3dcf569ff4b6a730667458ffd3589eef
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,9 +50,12 @@ public class MainActivity extends AppCompatActivity {
     private ImageView ivPostImage;
     private Button btnSubmit;
 
+<<<<<<< HEAD
     public final static int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 1034;
     public String photoFileName = "photo.jpg";
     File photoFile;
+=======
+>>>>>>> d787780b3dcf569ff4b6a730667458ffd3589eef
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         btnCaptureImage=findViewById(R.id.btnCaptureImage);
         ivPostImage=findViewById(R.id.ivPostImage);
         btnSubmit=findViewById(R.id.btnSubmit);
+<<<<<<< HEAD
         btnCaptureImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -133,6 +150,10 @@ public class MainActivity extends AppCompatActivity {
                 ivPostImage.setImageResource(0);
             }
         });
+=======
+        
+        queryPosts();
+>>>>>>> d787780b3dcf569ff4b6a730667458ffd3589eef
     }
 
     private void queryPosts() {
