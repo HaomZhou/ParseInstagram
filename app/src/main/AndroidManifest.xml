@@ -10,6 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7c95a72a8c3c87e2af703df48fb8039c6dde1132
 
             <!-- make sure within the application tag, otherwise app will crash with XmlResourceParser errors -->
             <provider
@@ -22,6 +26,11 @@
                     android:resource="@xml/fileprovider" />
             </provider>
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d787780b3dcf569ff4b6a730667458ffd3589eef
+>>>>>>> 7c95a72a8c3c87e2af703df48fb8039c6dde1132
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".LoginActivity">
             <intent-filter>

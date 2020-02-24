@@ -27,6 +27,20 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 import java.io.File;
+<<<<<<< HEAD
+=======
+
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseQuery;
+
+>>>>>>> d787780b3dcf569ff4b6a730667458ffd3589eef
+>>>>>>> 7c95a72a8c3c87e2af703df48fb8039c6dde1132
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -129,11 +143,19 @@ public class MainActivity extends AppCompatActivity {
         post.saveInBackground(new SaveCallback() {
             @Override
             public void done(ParseException e) {
+<<<<<<< HEAD
                 Log.d(TAG, "Success!!");
+=======
+>>>>>>> 7c95a72a8c3c87e2af703df48fb8039c6dde1132
                 etDescription.setText("");
                 ivPostImage.setImageResource(0);
             }
         });
+<<<<<<< HEAD
+=======
+        
+        queryPosts();
+>>>>>>> 7c95a72a8c3c87e2af703df48fb8039c6dde1132
     }
 
     private void queryPosts() {

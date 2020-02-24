@@ -1,5 +1,6 @@
 package com.example.parseinstagram;
 
+<<<<<<< HEAD
 import com.parse.Parse;
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
@@ -8,6 +9,13 @@ import com.parse.ParseUser;
 
 
 @ParseClassName("Post")
+=======
+import com.parse.ParseClassName;
+import com.parse.ParseFile;
+import com.parse.ParseUser;
+
+@ParseClassName("TodoItem")
+>>>>>>> 7c95a72a8c3c87e2af703df48fb8039c6dde1132
 public class Post extends com.parse.ParseObject {
     public static final String KEY_DESCRIPTION = "description";
     public static final String KEY_IMAGE = "image";
