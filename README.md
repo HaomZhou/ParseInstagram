@@ -1,4 +1,4 @@
-# Project 3 - *Name of App Here*
+# ParseInstagram
 
 **Name of your app** is a photo sharing app similar to Instagram but using Parse as its backend.
 
